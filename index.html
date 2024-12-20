@@ -91,7 +91,7 @@
             $('#applicationForm').on('submit', function (e) {
                 e.preventDefault();
                 $.ajax({
-                    url: 'base.php',
+                    url: 'submit.php',
                     type: 'POST',
                     data: $(this).serialize(),
                     success: function (response) {
